@@ -195,7 +195,7 @@ export default function Home() {
                 <TempratureCard img={weatherImage} address={address} des={description} humid={humidity} condit={conditions} cloudCov={cloudcover}/>
             </div>
             <div className='right_portion'>
-                <h1>Forecast: 15-Day Weather Forecast</h1>
+                <h1 className='day15forcast'>Forecast: 15-Day Weather Forecast</h1>
                 <div className='forcast'>
                     {element}
                 </div>

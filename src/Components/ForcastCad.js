@@ -7,7 +7,7 @@ export default function ForcastCad(props) {
         <div className="focastCard">
         <p className="city">{props.dateTime}</p>
         <p className="weather">{props.condti}</p>
-        <p style={{color:"white",margin:'7px'}}>Rain chance {props.rainChance}%</p>
+        <p className='RanCh' style={{color:"white",margin:'7px'}}>Rain chance {props.rainChance}%</p>
         <p className="temp">{props.temp}°</p>
         <div className="minmaxContainer">
             <div className="min">

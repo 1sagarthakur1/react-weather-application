@@ -676,6 +676,27 @@ body{
  
   .focastCard{
     width: 150px;
-    height: 170px;
+  }
+}
+@media(max-width:365px){
+  .focastCard{
+    width: 130px;
+  }
+  .temp {
+    font-size: 1.2em;
+  }
+  .RanCh{
+    font-size: 12px;
+  }
+  .right_portion h1{
+    font-size: 20px;
+    margin-left:30px;
+    color: white;
+  }
+  .footerpart{
+    height: 350px;
+  }
+  .footer{
+    height: 300px;
   }
 }
